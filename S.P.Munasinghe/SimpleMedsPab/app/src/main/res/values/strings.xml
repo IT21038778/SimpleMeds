@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Home</string>
+    <string name="txt1">One of the few retail healthcare chains in Sri Lanka, we have
+        introduced a innovative concept centered upon handling your pharmaceutical needs, you can rest assure since
+        this system is handled by a team who are experts in their field.</string>
+    <string name="homehead">Welcome to Simple Meds</string>
+    <string name="txt2">What we offer</string>
+    <string name="txt3">Head over to the shop and browse</string>
+    <string name="txt4">Want more items to suit your needs?</string>
+    <string name="shopbtn">Vist our Shop</string>
+    <string name="desc">Progain High Protein 220g</string>
+    <string name="desc1">Herbal Vitamin C 60CAP</string>
+    <string name="desc2">Panadol</string>
+    <string name="desc3">Fish Oil Omega 3</string>
+    <string name="desc4">Ventolin Inhaler</string>
+    <string name="heading">Welcome Admin</string>
+    <string name="InvMng">Manage Inventory</string>
+    <string name="txt5">Search Customers</string>
+    <string name="txt6">View customer details</string>
+    <string name="txt8">Manage the inventory</string>
+    <string name="loginBtn">Login</string>
+    <string name="Head">Log in</string>
+    <string name="adminHead">Admin Login</string>
+    <string name="Head2">Sign up</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="logout">Logout</string>
+    <string name="back">Back</string>
+    <string name="pass2">Password : </string>
+    <string name="signupBtn">Sign up</string>
+    <string name="fn">Full name</string>
+    <string name="passConf">Confirm password</string>
+    <string name="passConf2">Confirm password : </string>
+    <string name="fntext">Enter your full name</string>
+    <string name="emailtext">Enter your email</string>
+    <string name="tele">Telephone</string>
+    <string name="Age">Age</string>
+    <string name="teletxt">Enter your telephone</string>
+    <string name="Agetxt">Enter your age</string>
+    <string name="heading2">Your profile</string>
+    <string name="txt9">Details</string>
+    <string name="txt10">Full name :</string>
+    <string name="txt11">Email :</string>
+    <string name="txt12">Telephone :</string>
+    <string name="txt13">Age :</string>
+    <string name="submit">Submit</string>
+    <string name="btn1">Edit Profile</string>
+    <string name="btn2">Delete Profile</string>
+    <string name="botText">Forget password</string>
+    <string name="botText2">Already have an account?</string>
+    <string name="botText3">Dont have an account?</string>
+    <string name="reg">Register</string>
+    <string name="editprofile">Edit your profile</string>
+    <string name="ID">ID :</string>
+    <string name="profile">View your profile</string>
+    <string name="pay">Payment methods</string>
+    <string name="cardnickname">Enter a Nickname</string>
+    <string name="cardnumber">Enter Card Number</string>
+    <string name="cvv">Enter CVV</string>
+    <string name="carddate">Enter Card Date</string>
+    <string name="Addcard">Add Card</string>
+    <string name="cardmanage">Manage Your Paymemts</string>
+    <string name="paytitle">Manage Your Paymemts</string>
+    <string name="cardmanage2">View Your Cards</string>
+    <string name="viewcards">Your Cards</string>
+    <string name="updatecard">Update</string>
+    <string name="removecard">Remove</string>
+    <string name="updatecardhead">Update Card</string>
+
+
+
+</resources>

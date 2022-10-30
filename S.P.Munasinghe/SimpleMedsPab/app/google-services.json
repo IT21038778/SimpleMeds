@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "904987055784",
+    "firebase_url": "https://simplemeds-899e2-default-rtdb.firebaseio.com",
+    "project_id": "simplemeds-899e2",
+    "storage_bucket": "simplemeds-899e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904987055784:android:2bab31f8e02cc211f4d49d",
+        "android_client_info": {
+          "package_name": "com.example.simplemeds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904987055784-h2pu4agfl0ooc8m669oddvrnjm0jn9a3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjho-FjNaVvY2BXBldr3lGsaOLoCYKS_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904987055784-h2pu4agfl0ooc8m669oddvrnjm0jn9a3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
