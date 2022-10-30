@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".home"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="9dp">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="379dp"
+        android:layout_height="581dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/whitebg" />
+
+    <TextView
+        android:id="@+id/Head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="23dp"
+        android:text="@string/Head"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/adminFn"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/adminFn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/fn"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/adminfn"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/Head" />
+
+    <EditText
+        android:id="@+id/adminfn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/custom"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/adminPass"
+        app:layout_constraintEnd_toEndOf="@+id/adminpass"
+        app:layout_constraintStart_toStartOf="@+id/adminbtn"
+        app:layout_constraintTop_toBottomOf="@+id/adminFn" />
+
+    <EditText
+        android:id="@+id/adminpass"
+        android:layout_width="310dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/custom"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/adminlogin"
+        app:layout_constraintStart_toStartOf="@+id/adminPass"
+        app:layout_constraintTop_toBottomOf="@+id/adminPass" />
+
+    <Button
+        android:id="@+id/adminlogin"
+        android:layout_width="95dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="81dp"
+        android:backgroundTint="@color/amazonblue"
+        android:text="@string/loginBtn"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/adminbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminpass" />
+
+    <TextView
+        android:id="@+id/adminPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/pass"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/adminpass"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/adminfn" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="154dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="53dp"
+        app:layout_constraintBottom_toTopOf="@+id/Head"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/simplemeds2" />
+
+    <TextView
+        android:id="@+id/bottext3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="103dp"
+        android:text="@string/botText3"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/adminbtn" />
+
+    <Button
+        android:id="@+id/adminbtn"
+        android:layout_width="133dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="52dp"
+        android:backgroundTint="@color/amazonblue"
+        android:text="@string/adminHead"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/backbtn3"
+        app:layout_constraintEnd_toStartOf="@+id/reg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminlogin" />
+
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="39dp"
+        android:backgroundTint="@color/amazonblue"
+        android:text="@string/reg"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/adminbtn"
+        app:layout_constraintTop_toBottomOf="@+id/bottext3" />
+
+    <Button
+        android:id="@+id/backbtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="29dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/back"
+        android:textColor="@color/amazonblue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/adminbtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
