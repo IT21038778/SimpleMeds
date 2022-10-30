@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">SimpleMeds</string>
+    <string name="search">Search</string>
+    <string name="addnew">Add New Item</string>
+    <string name="itemCode">Item Code</string>
+    <string name="Name">Name</string>
+    <string name="Quantity">Quantity</string>
+    <string name="MFD">MFD</string>
+    <string name="EXPD">Expiry Date</string>
+    <string name="Price">Price</string>
+    <string name="Icode">Item Code</string>
+    <string name="Iname">Item Name</string>
+    <string name="Iquantity">Quantity</string>
+    <string name="IMFD">Manufactured Date</string>
+    <string name="IEXPD">Expiry Date</string>
+    <string name="Iprice">Price</string>
+    <string name="add">Add Item</string>
+    <string name="itemcode">Item Code</string>
+    <string name="displayexpd">Expiry Date</string>
+    <string name="displayquanity">Quantity</string>
+    <string name="displayname">Item Name</string>
+    <string name="displayprice">Price</string>
+    <string name="displaymfd">Manufacturered Date</string>
+    <string name="name">Item Name</string>
+    <string name="quantity">Quantity</string>
+    <string name="mfd">Manufacturered Date</string>
+    <string name="expd">Expiry Date</string>
+    <string name="price">Price</string>
+    <string name="update">Update Item</string>
+    <string name="delete">Delete Item</string>
+    <string name="addImage">Add Image</string>
+    <string name="addImageText">Add an Image</string>
+    <string name="updateImageText">Update Item Image</string>
+    <string name="updateImage">Update Image</string>
+    <string name="searchField">Enter Product Name</string>
+
+</resources>
